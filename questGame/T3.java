@@ -55,9 +55,9 @@ class T3 extends T1 {
         m36.put(3, "3nd question - 3rd LVL");
 
         m37.put(0, "3rd Line m37 Quest description");
-        m37.put(1, "1st question - 2nd LVL");
-        m37.put(2, "2nd question - 2nd LVL");
-        m37.put(3, "3nd question - 2nd LVL");
+        m37.put(1, "1st question - 3nd LVL");
+        m37.put(2, "2nd question - 3nd LVL");
+        m37.put(3, "3nd question - 3nd LVL");
 
         m38.put(0, "3rd Line m38 Quest description");
         m38.put(1, "1st question - 3rd LVL");

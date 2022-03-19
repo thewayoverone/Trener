@@ -13,7 +13,7 @@ public class Main {
                 new Quest(dB.m31), new Quest(dB.m32), new Quest(dB.m33), // количество будет зависить от длины квеста
         };
 
-        for(int i = 0; i < quests.length; i += answer) { // переменной answer будет регулироваться квестовое ветвление
+        for (int i = 0; i < quests.length; i += answer) { // переменной answer будет регулироваться квестовое ветвление
             answer = quests[i].question();
         }
 

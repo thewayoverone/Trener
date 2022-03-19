@@ -4,16 +4,10 @@ import java.util.HashMap;
 
 public class DataBase {
 
-    public DataBase() {
-        startDB();
-    }
-
     HashMap<Integer, String> m1 = new HashMap<>();
-
     HashMap<Integer, String> m21 = new HashMap<>();
     HashMap<Integer, String> m22 = new HashMap<>();
     HashMap<Integer, String> m23 = new HashMap<>();
-
     HashMap<Integer, String> m31 = new HashMap<>();
     HashMap<Integer, String> m32 = new HashMap<>();
     HashMap<Integer, String> m33 = new HashMap<>();
@@ -23,6 +17,10 @@ public class DataBase {
     HashMap<Integer, String> m37 = new HashMap<>();
     HashMap<Integer, String> m38 = new HashMap<>();
     HashMap<Integer, String> m39 = new HashMap<>();
+
+    public DataBase() {
+        startDB();
+    }
 
     private void startDB() {
 
